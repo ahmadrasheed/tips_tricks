@@ -1,0 +1,8 @@
+if there is erro 
+
+try to run this command before run "vagrant up" command
+
+chcp 1252    and hit enter 
+
+
+============================================================

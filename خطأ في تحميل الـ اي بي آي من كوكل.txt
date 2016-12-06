@@ -1,0 +1,17 @@
+SSL certificate problem: unable to get local issuer 
+
+ÇáÍá///
+
+
+https://github.com/google/google-api-php-client/issues/1011
+ÇáÍá Ýí ÇáÑÇÈØ ÇÚáÇå 
+
+
+There are various solutions mentioned in #788 that may help. To summarize, the options are this:
+Download the cacert.pem file
+Do one of the following
+set curl.cainfo = "PATH_TO/cacert.pem" in php.ini 
+pass the file in the verify option to your Guzzle client, i.e.:
+$client->setHttpClient(new \GuzzleHttp\Client(array(
+    'verify' => 'C:\Windows\curl-ca-bundle.crt',
+)));

@@ -1,0 +1,20 @@
+⁄‰œ «Œ– ‰”Œ… „‰ „‘—Ê⁄ «··«—«›· „‰ «·ﬂÌ  ÂÊ»° ›«‰Â ”Ê› ÌﬂÊ‰ ‰«ﬁ’ »⁄÷ «·„·›« 
+
+when clone laravel project from gitHub, some files will not be downloaded :
+
+.env
+vender 
+..... etc 
+
+because when doing push into gitHub, these files in included in ignore file. so they will not be upleaded to gitHub.
+
+whaty will fix that? 
+
+- try to make composr update or composer install 
+- remove any file from ingnore file, before and after gitHub process.
+- make .env , this file contain all information about connecting to DB. 
+
+
+for more info: visit this link
+
+http://laravel.io/forum/04-22-2014-whoops-looks-like-something-went-wrong-with-new-installation
