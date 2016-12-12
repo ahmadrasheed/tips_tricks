@@ -1,0 +1,18 @@
+to download a git repository
+
+1- make a folder in your pc, then run the follwoing command:
+git init
+
+2- use the "git pull" to download the real files 
+git pull +...."the url of your repository"
+
+3- make your changes and then:
+
+-git add .
+-git commit -m 
+
+4- push the new changes to your github account:
+- git remote add origin https://github.com/ahmadrasheed/tips_tricks.git
+- git push origin 
+
+=================================================================
