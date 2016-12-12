@@ -13,6 +13,6 @@ git pull +...."the url of your repository"
 
 4- push the new changes to your github account:
 - git remote add origin https://github.com/ahmadrasheed/tips_tricks.git
-- git push origin 
+- git push origin     or git push origin master 
 
 =================================================================
