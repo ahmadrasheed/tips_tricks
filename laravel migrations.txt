@@ -1,0 +1,12 @@
+to add a new column to a table without having to loosing your data: 
+
+1- create a new migratin with the following commands:
+php artisan make:migration add_column_exceprt_to_articles --table="articles"
+
+2- go to the new migration and add the code of the new column:
+$table->string('hits');
+
+3- run migrate command
+===============================
+
+https://laracasts.com/discuss/channels/laravel/change-tables-structures-with-migration-without-losing-data
